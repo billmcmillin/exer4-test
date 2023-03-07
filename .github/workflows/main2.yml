@@ -25,3 +25,6 @@ jobs:
         run: npm run build
       - name: Upload build files
         uses: actions/upload-artifact@v3.1.0
+        with:
+          name: build
+          path: build
